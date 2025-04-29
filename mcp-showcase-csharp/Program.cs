@@ -1,6 +1,6 @@
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ModelContextProtocol;
+using ModelContextProtocol.Server;
 using System.Collections.Concurrent;
 
 var builder = Host.CreateDefaultBuilder(args);
